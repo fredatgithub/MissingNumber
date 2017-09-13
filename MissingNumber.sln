@@ -5,6 +5,8 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MissingNumber", "MissingNumber\MissingNumber.csproj", "{DB252FB7-E71E-4381-A8E9-F6BD66C8E362}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreateSolution", "CreateSolution\CreateSolution.csproj", "{8D22A77A-33BF-4E71-BAAE-8A075198AA8A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{DB252FB7-E71E-4381-A8E9-F6BD66C8E362}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DB252FB7-E71E-4381-A8E9-F6BD66C8E362}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DB252FB7-E71E-4381-A8E9-F6BD66C8E362}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D22A77A-33BF-4E71-BAAE-8A075198AA8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D22A77A-33BF-4E71-BAAE-8A075198AA8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D22A77A-33BF-4E71-BAAE-8A075198AA8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D22A77A-33BF-4E71-BAAE-8A075198AA8A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
