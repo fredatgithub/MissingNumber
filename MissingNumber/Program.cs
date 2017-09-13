@@ -39,7 +39,15 @@ namespace MissingNumber
         }
       }
 
-      display($"the solution is {solutionNumber}");
+      if (solutionNumber == 0)
+      {
+        display("pas de solution trouvée");
+      }
+      else
+      {
+        display($"the solution is {solutionNumber}");
+      }
+      
       display("Press any ley to exit:");
       Console.ReadKey();
       /*
