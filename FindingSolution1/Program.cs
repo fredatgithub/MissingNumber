@@ -31,7 +31,8 @@ namespace FindingSolution1
       string result = string.Empty;
       //const string source1 =  "12345678910";
       //const string expected = "1245678910";
-      result = str.Substring(0, str.IndexOf((char)i) - 1) + 
+      char iAsChar = (char) i;
+      result = str.Substring(0, str.IndexOf(iAsChar) - 1) + 
                 str.Substring(str.IndexOf((char)i) + i.ToString().Length);
       return result;
     }
